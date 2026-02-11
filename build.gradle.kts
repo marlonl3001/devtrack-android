@@ -2,4 +2,15 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.hilt.android) apply false
+    alias(libs.plugins.ktlint) apply false
+    alias(libs.plugins.detekt) apply false
+}
+
+subprojects {
+    apply(plugin = rootProject.libs.plugins.ktlint.get().pluginId)
+    apply(plugin = rootProject.libs.plugins.detekt.get().pluginId)
+    apply(plugin = rootProject.libs.plugins.kotlin.compose.get().pluginId)
 }

@@ -1,6 +1,5 @@
-package br.com.mdr.devtrack.ui.theme
+package br.com.mdr.core.designsystem
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -10,6 +9,13 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import br.com.mdr.core.designsystem.theme.Pink40
+import br.com.mdr.core.designsystem.theme.Pink80
+import br.com.mdr.core.designsystem.theme.Purple40
+import br.com.mdr.core.designsystem.theme.Purple80
+import br.com.mdr.core.designsystem.theme.PurpleGrey40
+import br.com.mdr.core.designsystem.theme.PurpleGrey80
+import br.com.mdr.core.designsystem.theme.Typography
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,

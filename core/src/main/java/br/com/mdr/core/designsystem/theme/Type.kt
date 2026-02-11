@@ -1,4 +1,4 @@
-package br.com.mdr.devtrack.ui.theme
+package br.com.mdr.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "DevTrack"
 include(":app")
+include(":core")
+include(":dashboard")
+include(":auth")
